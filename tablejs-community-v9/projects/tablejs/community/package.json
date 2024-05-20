@@ -1,0 +1,43 @@
+{
+  "name": "@tablejs/community",
+  "version": "1.4.37",
+  "peerDependencies": {
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
+  },
+  "bugs": {
+    "url": "https://github.com/TheYellowThorn/tablejs-community/issues"
+  },
+  "main": "fesm2015/tablejs-community.mjs",
+  "keywords": [
+    "tablejs",
+    "datagrid",
+    "data-grid",
+    "datatable",
+    "data-table",
+    "table-component",
+    "grid-component",
+    "angular-ui",
+    "angular-material",
+    "angular-directives",
+    "angular-services",
+    "grid",
+    "data",
+    "table",
+    "angular",
+    "angular-components",
+    "screen-reader",
+    "infinite-scrolling",
+    "web-components"
+  ],
+  "author": "Michael Gouwens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheYellowThorn/tablejs-community"
+  },
+  "homepage": "https://theyellowthorn.github.io/tablejs/",
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "license": "MIT"
+}
