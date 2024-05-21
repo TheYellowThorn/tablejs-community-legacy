@@ -2378,7 +2378,7 @@ export class GridDirective extends TablejsGridProxy implements AfterViewInit, On
   
   private setScrollbarAdjustmentStyle(): void {
     this.scrollbarWidth = this.viewport!.offsetWidth - this.viewport!.clientWidth;
-    this.scrollbarAdjustmentStyle!.innerHTML = '#' + this.viewportID + ' .reorderable-table-row { margin-right: -' + this.scrollbarWidth + 'px; }';
+    this.scrollbarAdjustmentStyle!.innerHTML = '#' + this.viewportID + ' > .reorderable-table-row { width: calc(100% + ' + (this.scrollbarWidth - 1) + 'px); }';
     this.setStyleContent();
   }
 

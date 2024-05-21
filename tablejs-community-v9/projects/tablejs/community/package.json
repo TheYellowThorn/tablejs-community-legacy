@@ -1,6 +1,6 @@
 {
   "name": "@tablejs/community",
-  "version": "1.4.37",
+  "version": "1.4.44",
   "peerDependencies": {
     "@angular/common": "^9.1.13",
     "@angular/core": "^9.1.13"
